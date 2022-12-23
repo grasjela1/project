@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HereForYou</title>
+    <link rel="stylesheet" href="stylefq.css">
+</head>
+
+<body>
+    <div class="main">
+            <div class="navbar">
+              <nav>
+                <div class="nav">
+                  <ul id="MenuItems">
+                    <li><a href="/firstPage/hapjaefaqes.html">Faqja Kryesore</a></li>
+                    <li><a href="/buspage/index.html">Urbanet</a></li>
+                    <li><a href= "/terminal/term.html">Terminali</a></li>
+                    <li><a href="/kafeStudentore/provojm.html">Kafe Studentore</a></li>
+                    <li><a href="/librarionline/iiindex.html">Librari Online</a></li>
+                    <li><button class="loginbtn" onclick="document.getElementById('login-form').style.display='block'" 
+                      style="width: auto;">login</button></li>
+                   </ul>
+                 </div>
+              </nav>
+            </div>
+            <div id="login-form" class="login-page">
+              <div class="form-box">
+                  <div class="form">
+                  <form class="login-form">
+                      <center><h1 class="main-heading">Formulari i Login</h1></center>
+                      <input type="text" placeholder="username"/>
+                      <input type="password" placeholder="password"/>
+                      <button>Login</button>
+                      
+                      <P class="asking">Nuk jeni rregjistruar akoma?
+                      <a href="#">Rregjistrohu</a></P>
+                  </form>
+                  <form class="register-form">
+                      <center><h1 class="main-heading">Formulari i rregjistrimit</h1></center>
+                      <input type="text" placeholder="username"/>
+                      <input type="password" placeholder="email-id"/>
+                      <input type="password" placeholder=" create a password"/>
+                      <button>Register</button>
+                      <P class="asking">A je i rregjistruar tashme?
+                      <a href="#">Login</a></P>
+                  </form>
+                 </div>
+                </div>
+            </div>      
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+          <script src="index.js"></script>
+</body>
+</html>
